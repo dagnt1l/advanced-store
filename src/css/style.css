@@ -76,7 +76,7 @@ button.secondary,
 }
 
 .section-title {
-  @apply font-title border-midnight-900 mx-auto w-fit border-x px-8 py-3 text-center text-[32px] tracking-[10%] uppercase lg:px-10 lg:py-5;
+  @apply font-title border-midnight-900 mx-auto w-fit border-x px-8 py-3 text-center text-[26px] tracking-[10%] uppercase lg:px-10 lg:py-5 lg:text-[32px];
 }
 
 .card {
