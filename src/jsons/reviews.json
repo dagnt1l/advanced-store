@@ -1,0 +1,38 @@
+{
+  "0": {
+    "text": "I used Advanced store, and I had a great experience with them, start from they recommend the best choices for you, until you turn on your pc and make sure it works.",
+    "name": "Aaron Simon",
+    "company": "Sony",
+    "avatar_path": "./../../public/avatars/av1.png"
+  },
+  "1": {
+    "text": "Amazing website for PC enthusiasts! The layout is clean, prices are fair, and every product has detailed specs. Building my custom PC was a breeze.",
+    "name": "Cooper Kristin",
+    "company": "McDonald's",
+    "avatar_path": "./../../public/avatars/av2.png"
+  },
+  "2": {
+    "text": "Advanced Store makes finding the right computer parts super easy. Great variety, fast browsing, and helpful descriptions. I’ll definitely shop here again!",
+    "name": "Henry Arthur",
+    "company": "The Walt Disney Company",
+    "avatar_path": "./../../public/avatars/av3.png"
+  },
+  "3": {
+    "text": "I love how organized and modern the site is. From processors to GPUs, everything is clearly listed with all the details I need. Highly recommended!",
+    "name": "Flores Juanita",
+    "company": "MasterCard",
+    "avatar_path": "./../../public/avatars/av4.png"
+  },
+  "4": {
+    "text": "Excellent experience overall. The website loads quickly, offers trusted brands, and makes comparing products simple. Perfect for tech lovers!",
+    "name": "Miles Esther",
+    "company": "Louis Vuitton",
+    "avatar_path": "./../../public/avatars/av5.png"
+  },
+  "5": {
+    "text": "Very reliable and user-friendly site! I found all the components for my gaming setup in minutes. Clear info, smooth checkout, and great service.",
+    "name": "Black Marvin",
+    "company": "Starbucks",
+    "avatar_path": "./../../public/avatars/av6.png"
+  }
+}

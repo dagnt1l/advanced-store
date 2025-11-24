@@ -1,0 +1,104 @@
+html {
+  @apply font-body;
+}
+
+body {
+  @apply bg-light-50 text-midnight-900;
+}
+
+svg {
+  @apply inline-block shrink-0;
+}
+
+img {
+  @apply select-none;
+}
+
+button,
+.button {
+  @apply font-title inline-flex cursor-pointer items-center justify-center gap-2 rounded-sm p-3 transition-all outline-none select-none [&_svg]:size-5;
+}
+
+button.sm,
+.button.sm {
+  @apply rounded-xs p-2.5 text-sm [&_svg]:size-4;
+}
+
+button.xs,
+.button.xs {
+  @apply gap-1.5 rounded-xs p-2 text-xs [&_svg]:size-3.5;
+}
+
+button.primary,
+.button.primary {
+  @apply bg-midnight-900 text-midnight-50 hover:bg-midnight-800;
+}
+
+a {
+  @apply transition-all;
+}
+
+button.secondary,
+.button.secondary {
+  @apply text-midnight-900 hover:bg-light-100 border-light-500 border;
+}
+
+.container-fill {
+  @apply w-full px-8 lg:px-16;
+}
+
+.navbar {
+  @apply from-midnight-900 text-light-50 to-midnight-700 relative flex items-center bg-linear-[106deg] from-100% to-70% px-8 py-7 lg:px-16;
+}
+
+.navbar-title {
+  @apply font-title text-light-50 hover:text-midnight-100 text-xl;
+}
+
+.navbar-link {
+  @apply text-dimmed-white font-title hover:text-midnight-50 text-sm;
+}
+
+.navbar-collapse {
+  @apply from-midnight-900 to-midnight-700 shadow-card invisible fixed top-28 left-2/4 z-50 grid w-[calc(100vw-64px)] grow -translate-x-2/4 scale-90 rounded-lg bg-linear-[106deg] from-100% to-70% p-6 opacity-0 transition-all lg:visible lg:static lg:z-auto lg:flex lg:w-auto lg:-translate-0 lg:scale-100 lg:items-center lg:justify-end lg:rounded-none lg:bg-transparent lg:p-0 lg:opacity-100 lg:shadow-none;
+}
+
+.navbar-collapse.show {
+  @apply visible scale-100 opacity-100;
+}
+
+.navbar-list {
+  @apply flex flex-col gap-3 lg:flex-row lg:items-center;
+}
+
+.navbar-toggler {
+  @apply hover:bg-midnight-800 ms-auto lg:hidden [&_svg]:size-6;
+}
+
+.section-title {
+  @apply font-title border-midnight-900 mx-auto w-fit border-x px-8 py-3 text-center text-[32px] tracking-[10%] uppercase lg:px-10 lg:py-5;
+}
+
+.card {
+  @apply bg-white-like-50 shadow-card overflow-hidden rounded-lg;
+}
+
+.card-img {
+  @apply h-[269px] w-full object-cover;
+}
+
+.card-content {
+  @apply px-4 py-5;
+}
+
+.card-title {
+  @apply hover:text-dimmed-black block text-lg font-medium;
+}
+
+.card-text {
+  @apply text-dimmed-black;
+}
+
+footer {
+  @apply from-midnight-900 text-light-50 to-midnight-700 relative space-y-8 bg-linear-to-br from-100% to-60% p-8 pb-9 lg:p-16;
+}

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import 'tailwindcss';
+@import './style.css';
+
+@theme {
+  /* Font faces */
+  --font-title: 'Gugi', sans-serif;
+  --font-body: 'Inter', sans-serif;
+
+  /* Colors */
+  --color-dimmed-black: #565b64ff;
+  --color-dimmed-white: #b2b5b8ff;
+  --color-primary-50: #edfffcff;
+  --color-primary-100: #c0fff8ff;
+  --color-primary-200: #81fff3ff;
+  --color-primary-300: #3affecff;
+  --color-primary-400: #00ffdeff;
+  --color-primary-500: #00e2c6ff;
+  --color-primary-600: #00b7a4ff;
+  --color-primary-700: #009183ff;
+  --color-primary-800: #00726aff;
+  --color-primary-900: #045d57ff;
+  --color-primary-950: #003a39ff;
+  --color-error-50: #fff2f1ff;
+  --color-error-100: #ffe3e0ff;
+  --color-error-200: #ffccc7ff;
+  --color-error-300: #ffa8a0ff;
+  --color-error-400: #ff7569ff;
+  --color-error-500: #f93827ff;
+  --color-error-600: #e72c1bff;
+  --color-error-700: #c32012ff;
+  --color-error-800: #a11e13ff;
+  --color-error-900: #852017ff;
+  --color-error-950: #490b06ff;
+  --color-midnight-50: #d2dae6ff;
+  --color-midnight-100: #a0a8b4ff;
+  --color-midnight-200: #78808cff;
+  --color-midnight-300: #6e7682ff;
+  --color-midnight-400: #5a626eff;
+  --color-midnight-500: #4a525eff;
+  --color-midnight-600: #3a424eff;
+  --color-midnight-700: #2a323eff;
+  --color-midnight-800: #1b232fff;
+  --color-midnight-900: #0d1521ff;
+  --color-midnight-950: #000814ff;
+  --color-white-like-50: #fefefeff;
+  --color-white-like-100: #f4f4f4ff;
+  --color-white-like-200: #eaeaeaff;
+  --color-white-like-300: #e0e0e0ff;
+  --color-white-like-400: #d6d6d6ff;
+  --color-white-like-500: #ccccccff;
+  --color-white-like-600: #c2c2c2ff;
+  --color-white-like-700: #b8b8b8ff;
+  --color-white-like-800: #aeaeaeff;
+  --color-white-like-900: #a4a4a4ff;
+  --color-white-like-950: #9a9a9aff;
+  --color-success-50: #eefff0ff;
+  --color-success-100: #d6ffddff;
+  --color-success-200: #b0ffbeff;
+  --color-success-300: #73ff8dff;
+  --color-success-400: #27f94dff;
+  --color-success-500: #04e32dff;
+  --color-success-600: #00bd20ff;
+  --color-success-700: #01941dff;
+  --color-success-800: #07741dff;
+  --color-success-900: #085f1bff;
+  --color-success-950: #00360bff;
+  --color-light-50: #e6eefaff;
+  --color-light-100: #dce4f0ff;
+  --color-light-200: #d2dae6ff;
+  --color-light-300: #c8d0dcff;
+  --color-light-400: #bec6d2ff;
+  --color-light-500: #b4bcc8ff;
+  --color-light-600: #aab2beff;
+  --color-light-700: #a0a8b4ff;
+  --color-light-800: #969eaaff;
+  --color-light-900: #8c94a0ff;
+  --color-light-950: #828a96ff;
+
+  /* Effect styles */
+  --shadow-card: 0px 10px 7px rgba(0, 8, 20, 0.03), 0px 4px 3px rgba(0, 8, 20, 0.01), 0px 0px 1px rgba(0, 8, 20, 0.04), 0px 1px 0px rgba(0, 8, 20, 0.04);
+  --shadow-mockup: 2px 3px 8px rgba(0, 8, 20, 0.15), 8px 12px 14px rgba(0, 8, 20, 0.13), 18px 26px 19px rgba(0, 8, 20, 0.08), 31px 47px 23px rgba(0, 8, 20, 0.02), 49px 73px 25px rgba(0, 8, 20, 0);
+  --shadow-icon: -1px 1px 2.4000000953674316px rgba(0, 8, 20, 0.06), -3px 4px 2.4000000953674316px rgba(0, 8, 20, 0.04), -6px 6px 3.4000000953674316px rgba(0, 8, 20, 0.02);
+  --inset-shadow-wire-reflection: inset 0px 1px 1.600000023841858px rgba(210, 218, 230, 1), inset 1px 1px 0.6000000238418579px rgba(0, 8, 20, 1);
+
+  --shadow-cpu: 232px 262px 98px rgba(13, 21, 33, 0), 149px 168px 90px rgba(13, 21, 33, 0.01), 84px 94px 76px rgba(13, 21, 33, 0.05), 37px 42px 56px rgba(13, 21, 33, 0.09), 9px 10px 31px rgba(13, 21, 33, 0.1);
+}

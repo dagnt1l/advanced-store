@@ -1,0 +1,38 @@
+{
+  "0": {
+    "img": "./../../public/pcs/1.webp",
+    "title": "Gaming pc title",
+    "price": "1,328",
+    "rate": "4.57"
+  },
+  "1": {
+    "img": "./../../public/pcs/2.webp",
+    "title": "Gaming pc title",
+    "price": "2,431",
+    "rate": "5"
+  },
+  "2": {
+    "img": "./../../public/pcs/3.webp",
+    "title": "Gaming pc title",
+    "price": "879",
+    "rate": "4.31"
+  },
+  "3": {
+    "img": "./../../public/pcs/4.png",
+    "title": "Gaming pc title",
+    "price": "6,503",
+    "rate": "4.5"
+  },
+  "4": {
+    "img": "./../../public/pcs/5.png",
+    "title": "Gaming pc title",
+    "price": "3,439",
+    "rate": "5.0"
+  },
+  "5": {
+    "img": "./../../public/pcs/6.webp",
+    "title": "Gaming pc title",
+    "price": "1,429",
+    "rate": "3.5"
+  }
+}
